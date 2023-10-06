@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <meta
+      name="description"
+      content="Andrei Bolboceanu Portfolio is a personal insight and projects on the work of Andrei Bolboceanu."
+    />
+    <meta name="theme-color" content="#212529" />
+
+    <!-- Favicon -->
+    <!-- Browser -->
+    <link rel="icon" href="img/favicon.png" />
+      <!-- iOS -->
+      <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <!-- Android -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <title>Andrei Bolboceanu &mdash; Portfolio</title>
+    <!-- Google Fonts -->
+  
+    <link href="https://fonts.cdnfonts.com/css/circular-std" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <!-- Icon pack -->
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- JS -->
+    <script defer src="js/scripts.js"></script>
+    <script defer src="js/projects.js"></script>
+
+    <!-- JQuerry -->
+    <script src="https://code.jquery.com/jquery-[version].min.js"></script>
+
+  </head>
+  <body>
+    <div class="preloader"></div>
+
+    <header class="header container margin-bottom-xxl">
+      <nav class="main-nav">
+        <a href="#">
+          <img src="img/abo6.PNG" alt="Andrei Bolbo logo" class="logo" />
+        </a>
+        <ul class="main-nav-list">
+          <!-- <li><a href="#" class="main-nav-link">Home</a></li> -->
+          <li><a href="#about" class="main-nav-link">About me</a></li>
+          <li><a href="#projects" class="main-nav-link">Projects</a></li>
+          <li><a href="#contact" class="main-nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+
+      <a href="#" class="top"><ion-icon name="arrow-up-outline"></ion-icon></a>
+    </header>
+    <main>
+      <section class="section-hero container margin-bottom-xxl">
+        <div class="hero">
+          <div class="hero-container-1">        
+            <div class="hero-img-box">
+              <picture>
+                <source srcset="img/andreibolbo.png" type="image/webp" />
+                <source srcset="img/andreibolbo.png" type="image/png" />
+                <img
+                  src="img/andreibolbo.png"
+                  alt="Andrei Bolbo profile"
+                  class="hero-img"
+                />
+              </picture>
+            </div>
+            <p class="text-name">Andrei Bolbo</p>
+            <p class="text-function">&#64;andreibolbo</p>
+            <div class="hero-buttons">
+              <a href="#contact" id="btn-hire" class="btn btn-full">Hire Me</a>
+              <a href="#projects" id="btn-projects" class="btn btn-outline"
+                >Projects</a
+              >
+              <div class="icons">
+                <a href="https://wa.me/400755531010" aria-label="Chat on WhatsApp" target="_blank"
+                  ><ion-icon class="icon" name="logo-whatsapp"></ion-icon
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/andrei-bolboceanu-b54445185/"
+                  target="_blank"
+                  ><ion-icon class="icon" name="logo-linkedin"></ion-icon
+                ></a>
+                <a
+                  href="https://www.facebook.com/andrey.konstantine1/"
+                  target="_blank"
+                  ><ion-icon class="icon" name="logo-facebook"></ion-icon
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-container-2">
+            <h1 class="heading-primary">
+              Hello!👋 I'm Andrei.<br />
+              Nice to see you here!
+            </h1>
+            <p class="hero-text">
+              I’m passionate about software development and I’m skilled in HTML,
+              CSS and JavaScript. I have also knowledge in JQuerry, Bootstrap, TypeScript & ReactJs.
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section-about container grid grid--2-cols margin-bottom-xxl"
+        id="about"
+      >
+        <div class="about-text">
+          <h2>About me</h2>
+          <ul class="about-list">
+            <li>
+              Hello, I’m Andrei, and I’m passionate about building software applications. I started my journey in 2022 as a freelance  front-end developer after I got in loved for coding.  
+              In my whole journey I tried focusing on understanding the concepts instead of memorizing syntax and this turned out to be a really good approach. 
+              If you came this far I want to thank you and I hope you enjoy the rest of my website.
+            </li>
+            <li>
+              Lately, I have intensified my passion for the world of software
+              development and the beauty behind building useful websites and applications like
+              the ones you will find in this portfolio.
+            </li>
+          </ul>
+        </div>
+        <div class="about-images">
+          <div class="img-geo">
+            <img src="img/geolocation-2.png" alt="My Location" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-projects container">
+        <div class="knowledge-lang">
+          <div class="lang">
+            <h3>Skilled In</h3>
+          </div>
+          <div class="lang">
+            <img class="logos" src="img/languages/2.png" alt="" />
+            <figcaption>HTML5</figcaption>
+          </div>
+          <div class="lang">
+            <img class="logos" src="img/languages/1.png" alt="" />
+            <figcaption>CSS3</figcaption>
+          </div>
+          <div class="lang">
+            <img class="logos" src="img/languages/9.PNG" alt="" />
+            <figcaption>Bootstrap</figcaption>
+          </div>
+          <div class="lang">
+            <img class="logos" src="img/languages/3.png" alt="" />
+            <figcaption>JavaScript</figcaption>
+          </div>
+          <div class="lang">
+            <img class="logos" src="img/languages/7.PNG" alt="" />
+            <figcaption>React</figcaption>
+          </div>
+        </div>
+
+        <div class="projects-title" id="projects">
+          <h2>Projects</h2>
+          <p>
+            Latest projects that I worked on...
+            <span><ion-icon name="trending-down-sharp"></ion-icon></span>
+          </p>
+        </div>
+      </section>
+
+      <section class="slider margin-bottom-xxl">
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-8-1.PNG"
+                alt="Card image TUDORS-GARAGE"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">LIVE WEBSITE</h3>
+            <p class="card-description">
+              Real website client project for a motorcycle repair shop.
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">API</p>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+              <p class="tag">CPANEL</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://www.tudors-garage.com/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-7.png"
+                alt="Card image MAPTY"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">MAPTY APP</h3>
+            <p class="card-description">
+              App that helps users track and organize their running or cycling
+              activities by calculating pace (for running) and speed (for
+              cycling) based on the location they choose to exercise.
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">API</p>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/Mapty-app/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+              <a
+                href="https://github.com/AndreiBolboceanu/Mapty-app.git"
+                target="_blank"
+                class="btn btn-outline"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-4.png"
+                alt="Card image BANKIST APP"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">BANKIST APP</h3>
+            <p class="card-description">
+              A fictitious banking app where you can verify bank account
+              balance, apply for loans and view loan status and transfer money
+              to other accounts safely.
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/Bankist-App/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+              <a
+                href="https://github.com/AndreiBolboceanu/Bankist-App.git"
+                target="_blank"
+                class="btn btn-outline"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-2.png"
+                alt="Card image PIG GAME"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">PEPPA PIG GAME</h3>
+            <p class="card-description">
+              Compete with friends to be the first to reach 100 points. Be
+              careful, one point loss will eliminate you from the current round.
+              Have fun playing together!
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/Peppa-Pig-Game-App/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+              <a
+                href="https://github.com/AndreiBolboceanu/Peppa-Pig-Game-App.git"
+                target="_blank"
+                class="btn btn-outline"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-3.png"
+                alt="Card image GUESS MY NUMBER"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">GUESS MY NUMBER</h3>
+            <p class="card-description">
+              Challenge your friends to guess the number between 1 and 20. Be
+              the first one to guess correctly and register the highest score
+              among friends Have fun and enjoy the game together.
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/Number-Guessing-app/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+              <a
+                href="https://github.com/AndreiBolboceanu/Number-Guessing-app.git"
+                target="_blank"
+                class="btn btn-outline"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-1.png"
+                alt="Card image OMNIFOOD"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">OMNIFOOD</h3>
+            <p class="card-description">
+              Explore a wide variety of healthy and nutritious meal options,
+              tailored to fit your dietary needs and preferences. Customize your
+              meals according to your dietary restrictions.
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/Omnifood-site/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+              <a
+                href="https://github.com/AndreiBolboceanu/Omnifood-site.git"
+                target="_blank"
+                class="btn btn-outline"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-5.png"
+                alt="Card image BANKIST LP"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">BANKIST LP</h3>
+            <p class="card-description">
+              Find out a few interesting things you can do to improve your
+              website's performance. Optimize images by reducing file size,
+              utilize browser caching for faster load time and more...
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/Bankist-Lp-App/"
+                class="btn btn-full"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                href="https://github.com/AndreiBolboceanu/Bankist-Lp-App.git"
+                class="btn btn-outline"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-6-3.PNG"
+                alt="Card image World Clock"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">WORLD TIME CLOCK</h3>
+            <p class="card-description">
+              Built a simple clock app that shows what time is it around the world.
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+              <p class="tag">API</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/World-Clock/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+               <a
+                href="https://github.com/AndreiBolboceanu/World-Clock.git"
+                class="btn btn-outline"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-6-2.PNG"
+                alt="Card image Task Manager"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">TASK MANAGER</h3>
+            <p class="card-description">
+              In this project I continued to exercise my skills in HTML, CSS & JavaScript.
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/Quick-T/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+               <a
+                href="https://github.com/AndreiBolboceanu/Quick-T.git"
+                class="btn btn-outline"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-6-1.PNG"
+                alt="Card image Login Page"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">LOGIN PAGE</h3>
+            <p class="card-description">
+              Here I used my knowledge to create a simple Login Page with the parallax effect.
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/Login-page/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+               <a
+                href="https://github.com/AndreiBolboceanu/Login-page.git"
+                class="btn btn-outline"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="card">
+            <figure>
+              <img
+                src="img/project-6.PNG"
+                alt="Card image Quiz Time"
+                class="card-image"
+              />
+            </figure>
+            <h3 class="card-title">QUIZ TIME</h3>
+            <p class="card-description">
+              In this project I've created a small quiz application and learned to use basic JavaScript (arrays&functions) 
+              and also practice my HTML & CSS.
+            </p>
+            <div class="tags">
+              <ion-icon name="build-outline"></ion-icon>
+              <p class="tag">TOOLS</p>
+              <span></span>
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">JS</p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://andreibolboceanu.github.io/Quiz-Time/"
+                target="_blank"
+                class="btn btn-full"
+                >Live</a
+              >
+               <a
+                href="https://github.com/AndreiBolboceanu/Quiz-Time.git"
+                class="btn btn-outline"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </button>
+        <button class="slider__btn slider__btn--right">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
+        <div class="dots"></div>
+      </section>
+
+      <section class="section-form container margin-bottom-md" id="contact">
+        <div class="form-message">
+          <h3>
+            Hey!
+            <span><ion-icon name="return-up-forward-outline"></ion-icon></span>
+          </h3>
+          <p class="desc desc--bold">I'd love to meet you too.</p>
+          <p class="desc">
+            There's no pressure to fill out this form. Feel free to get in touch
+            even if it's to ask a simple question.
+          </p>
+        </div>
+        <div class="form-content">
+          <div class="cta">
+            <form class='cta-form' action='https://formspree.io/f/xayzdrwk' method='post' name='sign-up'><input type='hidden' name='form-name' value='sign-up' />
+              <div>
+                <label for="full-name">Full name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Your full name..."
+                  name="full-name"
+                  id="text"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email adress</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Your email adress..."
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="message">Your message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Your message..."
+                ></textarea>
+              </div>
+              <button class="btn btn--form">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <footer class="footer container">
+        <div class="logo-col">
+          <img src="img/abo6.PNG" alt="Logo Andrei Bolbo Portfolio" />
+          <ul>
+            <li>My personal portfolio</li>
+            <li><b>Romania</b></li>
+            <li>Brasov</li>
+          </ul>
+        </div>
+        <div class="contact-col">
+          <p class="footer-title">Contact</p>
+          <ul>
+            <li><b>Phone:</b> +40 755 531 010</li>
+            <li><b>Email:</b> andrei.constantin.bolboceanu@gmail.com</li>
+          </ul>
+        </div>
+        <div class="socials-col">
+          <p class="footer-title">Follow Me</p>
+          <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/andrei-bolboceanu-b54445185/" target="_blank"
+              ><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a
+            >
+            <a href="https://twitter.com/Andrei_Bolbo/" target="_blank"
+              ><ion-icon name="logo-twitter"></ion-icon>Twitter</a
+            >
+            <a href="https://www.linkedin.com/in/andrei-bolboceanu-b54445185/"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="https://github.com/AndreiBolboceanu" target="_blank"
+              ><ion-icon name="logo-github"></ion-icon>GitHub</a
+            >
+          </div>
+        </div>
+        <p class="copy">&copy; 2023 All rights reserved. Code is poetry  
+          <a href="mailto:andrei.constantin.bolboceanu@gmail.com" ;="" style="color:rgb(221, 86, 86); font-family:Snell Roundhand, cursive;">by Andrei Bolboceanu</a>
+        </p>
+      </footer>
+    </main>
+
+    <div class="circle"></div>
+    <div class="circle"></div>  
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </body>
+</html>
